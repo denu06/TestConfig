@@ -7,7 +7,7 @@ public class Testing
 	{
 		System.out.println("Testing project");
 		String user = System.getProperty("FilePath");
-		System.out.println("Username :" + user);
+		System.out.println("FilePath :" + user);
 	}
 
 }
