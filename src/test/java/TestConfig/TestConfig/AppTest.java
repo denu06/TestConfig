@@ -11,6 +11,7 @@ public class AppTest
 	@Test
 	public void testApp()
 	{
-		Testing.main("");
+
+		Testing.main();
 	}
 }
