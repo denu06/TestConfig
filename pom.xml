@@ -2,12 +2,12 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>TestConfig</groupId>
-  <artifactId>TestConfig</artifactId>
+  <groupId>TestLinkExecution</groupId>
+  <artifactId>TestLinkExecution</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>jar</packaging>
 
-  <name>TestConfig</name>
+  <name>TestLinkExecution</name>
   <url>http://maven.apache.org</url>
 
   <properties>
