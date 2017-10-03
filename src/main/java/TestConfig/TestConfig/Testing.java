@@ -29,7 +29,7 @@ public class Testing
 			System.out.println("FilePath :" + Filepath);
 
 			String DEV_KEY = System.getProperty("DEV_KEY");
-			System.out.println("FilePath :" + Filepath);
+			System.out.println("Dev Key :" + DEV_KEY);
 
 			String SERVER_URL = System.getProperty("SERVER_URL");
 			String PROJECT_NAME = System.getProperty("PROJECT_NAME");
