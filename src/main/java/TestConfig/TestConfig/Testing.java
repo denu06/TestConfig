@@ -24,7 +24,7 @@ public class Testing
 	{
 		try
 		{
-			System.out.println("Testing project");
+			System.out.println("Testing project : Branch");
 			String Filepath = System.getProperty("FilePath");
 			System.out.println("FilePath :" + Filepath);
 
