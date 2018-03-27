@@ -114,9 +114,15 @@ public class Testing
 					System.out.println("TestCase ID is ::" + strTestCaseID);
 
 					result = TestLinkAPIResults.TEST_PASSED;
-
-					TestLinkAPIClient testLinkAPIClient = new TestLinkAPIClient(DEV_KEY, SERVER_URL);
-					testLinkAPIClient.reportTestCaseResult(PROJECT_NAME, PLAN_NAME, strTestCaseID, BUILD_NAME, exception, result);
+					try
+					{
+						TestLinkAPIClient testLinkAPIClient = new TestLinkAPIClient(DEV_KEY, SERVER_URL);
+						testLinkAPIClient.reportTestCaseResult(PROJECT_NAME, PLAN_NAME, strTestCaseID, BUILD_NAME, exception, result);
+					}
+					catch (Exception e)
+					{
+						System.out.println("testcase not passed :" + strTestCaseID);
+					}
 				}
 			}
 
