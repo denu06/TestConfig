@@ -12,6 +12,6 @@ public class AppTest
 	public void testApp()
 	{
 
-		Testing.main();
+		TestingThread.main();
 	}
 }
