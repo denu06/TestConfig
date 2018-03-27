@@ -23,6 +23,7 @@ import testlink.api.java.client.TestLinkAPIResults;
 public class TestingThread
 {
 	private static final int	MYTHREADS	= 10;
+	public static int			count		= 0;
 
 	public static void main()
 	{
@@ -135,6 +136,7 @@ public class TestingThread
 
 			}
 			System.out.println("\nFinished all threads");
+			System.out.println("Total Failed testcase : " + count);
 
 		}
 		catch (Exception e)
@@ -172,6 +174,7 @@ public class TestingThread
 			{
 				// TODO Auto-generated catch block
 				System.out.println("TestCase not pass in Testlink :" + strTestCaseID);
+				count++;
 
 			}
 		}
