@@ -118,7 +118,7 @@ public class TestingThread
 
 					String strTestCaseID = cell.getContents();
 
-					System.out.println("TestCase ID is ::" + strTestCaseID);
+					//System.out.println("TestCase ID is ::" + strTestCaseID);
 					result = TestLinkAPIResults.TEST_PASSED;
 					Runnable worker = new MyRunnable(testLinkAPIClient, PROJECT_NAME, PLAN_NAME, strTestCaseID, BUILD_NAME, exception, result);
 					executor.execute(worker);
