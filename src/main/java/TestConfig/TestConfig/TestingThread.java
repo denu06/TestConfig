@@ -22,7 +22,7 @@ import testlink.api.java.client.TestLinkAPIResults;
 
 public class TestingThread
 {
-	private static final int	MYTHREADS	= 10;
+	private static final int	MYTHREADS	= 30;
 	public static int			count		= 0;
 
 	public static void main()
