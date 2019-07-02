@@ -39,7 +39,7 @@ public class Testing
 			String result = "";
 			String exception = null;
 
-			////// Disable SSL Verification /////////
+			////// Disable SSL Verification //////////
 
 			TrustManager[] trustAllCerts = new TrustManager[] { new X509TrustManager()
 			{
